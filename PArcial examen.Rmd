@@ -1,0 +1,20 @@
+---
+title: "examen parcial"
+author: "Miguel Jara"
+date: "24/7/2021"
+output: github_document
+---
+# Ejercicios
+## 1.- Realizar un gráfico tipo linea que muestre el comportamiento de la función tangente hiperbólica y su derivada 
+
+```{r}
+x<- seq(-10.10,0.5)
+y<- ((e^(2*x)-1)/(e^(2*x)+1))
+plot(x,y,type="l")
+```
+###Derivada
+
+```{r}
+y´<-((4*e^(2*x))/(e^(2*x)+1)^2)
+plot(x,y´, type="l")
+```
