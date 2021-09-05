@@ -2,7 +2,7 @@
 title: "Resoluciòn - Examen Parcial"
 author: "Miguel Jara"
 date: "07/8/2021"
-output: html_document
+output: github_document
 ---
 
 # Ejercicios
